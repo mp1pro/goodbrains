@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'amboyw00-regularregular';
+    src: url('amboy_w00_regular-webfont.woff2') format('woff2'),
+    url('amboy_w00_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+header{
+    font-family: 'amboyw00-regularregular', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+}

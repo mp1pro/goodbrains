@@ -6,9 +6,32 @@
     font-style: normal;
 
 }
+body{
+    /*test color*/
+    /*background-color: grey;*/
+
+    width: 100%;
+}
 
 header{
     font-family: 'amboyw00-regularregular', Arial, sans-serif;
     font-weight:normal;
     font-style:normal;
+
+    /*test color*/
+    /*background-color: blue;*/
+
+    max-width: 90%;
+
+    margin: 0 auto;
+
+    border-bottom: 1px solid black;
+
+    font-size: 8vw;
+    font-size: 32px;
+
+    text-align: center;
 }
+
+
+

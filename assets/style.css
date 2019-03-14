@@ -11,6 +11,8 @@ body{
     /*background-color: grey;*/
 
     width: 100%;
+
+    margin: 0;
 }
 
 header{
@@ -31,6 +33,17 @@ header{
     font-size: 32px;
 
     text-align: center;
+}
+
+nav{
+    max-width: 90%;
+
+    /*test color*/
+    background-color: red;
+
+    margin: 0 auto;
+
+    margin-top:10px;
 }
 
 

@@ -1,11 +1,20 @@
 @font-face {
     font-family: 'amboyw00-regularregular';
-    src: url('amboy_w00_regular-webfont.woff2') format('woff2'),
-    url('amboy_w00_regular-webfont.woff') format('woff');
+    src: url('fonts/amboy_w00_regular-webfont.woff2') format('woff2'),
+    url('fonts/amboy_w00_regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'Candara';
+    src: url('fonts/Candara.woff2') format('woff2'),
+    url('fonts/Candara.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     /*test color*/
     /*background-color: grey;*/
@@ -44,6 +53,36 @@ nav{
     margin: 0 auto;
 
     margin-top:10px;
+}
+
+.burger{
+    float: left;
+}
+
+.cart{
+    float: right;
+}
+
+footer {
+    position:absolute;
+
+    bottom:0;
+
+    width: 100%;
+
+    padding: 10px 10px;   /* Height of the footer */
+
+    background-color:black;
+
+    text-align: center;
+
+    color:white;
+
+    font-family: 'Candara', Arial, sans-serif;
+
+    font-size: 14px;
+
+    font-weight:bold;
 }
 
 

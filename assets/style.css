@@ -48,23 +48,30 @@ nav{
     max-width: 90%;
 
     /*test color*/
-    background-color: red;
+    /*background-color: red;*/
 
     margin: 0 auto;
 
     margin-top:10px;
+
+    height: auto;
 }
 
-.burger{
+/*.burger{
     float: left;
-}
+}*/
 
 .cart{
     float: right;
 }
 
+main{
+    margin-top:50px;
+    text-align: center;
+}
+
 footer {
-    position:absolute;
+    position:fixed;
 
     bottom:0;
 

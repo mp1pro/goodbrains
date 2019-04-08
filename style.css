@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'amboyw00-regularregular';
-    src: url('fonts/amboy_w00_regular-webfont.woff2') format('woff2'),
-    url('fonts/amboy_w00_regular-webfont.woff') format('woff');
+    src: url('assets/fonts/amboy_w00_regular-webfont.woff2') format('woff2'),
+    url('assets/fonts/amboy_w00_regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'Candara';
-    src: url('fonts/Candara.woff2') format('woff2'),
-    url('fonts/Candara.woff') format('woff');
+    src: url('assets/fonts/Candara.woff2') format('woff2'),
+    url('assets/fonts/Candara.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -57,9 +57,9 @@ nav{
     height: auto;
 }
 
-/*.burger{
+.burger{
     float: left;
-}*/
+}
 
 .cart{
     float: right;
